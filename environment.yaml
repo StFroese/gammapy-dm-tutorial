@@ -1,0 +1,13 @@
+name: dm-tutorial
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.11
+  - astropy<6.0
+  - scipy=1.11.2
+  - jupyter
+  - matplotlib
+  - tqdm
+  - pip:
+    - git+https://github.com/StFroese/gammapy.git@jfactor_parameter
